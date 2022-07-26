@@ -136,7 +136,7 @@ header .icons .menu_bar {
 }
 
 #search-form #search-box{
-  width:50rem;
+  width:40rem;
   border-bottom: 0.1rem solid #fff;
   padding:1rem 0;
   color:#fff;
@@ -178,6 +178,7 @@ header .icons .menu_bar {
 .home .home-slider .slide{
   display: flex;
   align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 2rem;
   padding-top: 9rem;
@@ -206,14 +207,11 @@ header .icons .menu_bar {
 }
 
 /*******Dishes section started now********/
+
 .dishes .box-container{
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(31rem , 1fr));
   gap: 1.5rem;
-}
-.dishes .box-container .box img{
-  height:15rem;
-  margin:1rem 0;
 }
 .dishes .box-container .box{
   padding: 2.5rem;
@@ -224,6 +222,10 @@ header .icons .menu_bar {
   overflow: hidden;
   position: relative;
   text-align: center;
+}
+.dishes .box-container .box img{
+  height:15rem;
+  margin:1rem 0;
 }
 .dishes .box-container .box .fa-heart,
 .dishes .box-container .box .fa-eye{
@@ -489,18 +491,6 @@ header .icons .menu_bar {
 .footer .credit span{
   color:var(--green);
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
