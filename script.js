@@ -6,6 +6,11 @@ menu.addEventListener("click",function(){
     navbar.classList.toggle("active")
 });
 
+window.addEventListener("scroll", function(){
+  menu.classList.remove("fa-times")
+    navbar.classList.remove("active")
+})
+
 document.querySelector('#search-icon').onclick = () =>{
     document.querySelector('#search-form').classList.toggle('active');
 }
