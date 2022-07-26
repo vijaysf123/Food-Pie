@@ -435,7 +435,7 @@ header .icons .menu_bar {
   padding:1rem;
   font-size: 1.6rem;
   color:var(--black);
-  text-transform: none;
+  text-transform: capitalize;
   margin-bottom: 1rem;
   width:100%;
 }
